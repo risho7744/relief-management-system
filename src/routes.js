@@ -15,14 +15,14 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import Index from "views/Index.js";
-import Profile from "views/examples/Profile.js";
-import Maps from "views/examples/Maps.js";
-import Register from "views/examples/Register.js";
-import Login from "views/examples/Login.js";
-import Tables from "views/examples/Tables.js";
-import Icons from "views/examples/Icons.js";
-import Add_Family from "views/examples/Add_Family";
+import Index from 'views/Index.js';
+import Profile from "views/main/Profile.js";
+import Maps from "views/main/Maps.js";
+import Register from "views/main/Register.js";
+import Login from "views/main/Login.js";
+import Tables from "views/main/Tables.js";
+import Icons from "views/main/Icons.js";
+import Add_Family from "views/main/Add_Family";
 
 
 var routes = [
@@ -31,56 +31,49 @@ var routes = [
     name: "Dashboard",
     icon: "ni ni-tv-2 text-primary",
     component: Index,
-    layout: "/admin",
+    layout: "/admin"
   },
-  {
-    path: "/Families_Data",
+    {
+    path: "/families",
     name: "Families Data",
     icon: "ni ni-planet text-blue",
     component: Icons,
-    layout: "/admin",
+    layout: "/admin"
   },
   {
     path: "/Quarantined",
     name: "Quarantined",
     icon: "ni ni-pin-3 text-orange",
     component: Maps,
-    layout: "/admin",
+    layout: "/admin"
   },
   {
     path: "/Relief_Data",
     name: "Relief Data",
     icon: "ni ni-single-02 text-yellow",
     component: Profile,
-    layout: "/admin",
+    layout: "/admin"
   },
-
   {
     path: "/login",
     name: "",
     icon: "",
     component: Login,
-    layout: "/auth",
+    layout: "/auth"
   },
-
   {
     path: "/register",
     name: "",
     icon: "",
     component: Register,
-    layout: "/auth",
+    layout: "/auth"
   },
-  
   {
     path: "/Add_Family",
     name: "",
     icon: "",
     component: Add_Family,
-    layout: "/admin",
+    layout: "/admin"
   },
-  
-  
-  
-  
 ];
 export default routes;

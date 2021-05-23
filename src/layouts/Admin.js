@@ -72,7 +72,7 @@ const Admin = (props) => {
         logo={{
           innerLink: "/admin/index",
           imgSrc: require("../assets/img/brand/argon-react.png").default,
-          imgAlt: "...",
+          imgAlt: "Relief Management System",
         }}
       />
       <div className="main-content" ref={mainContent}>
