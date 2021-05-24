@@ -1,5 +1,5 @@
 //import firebase
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 
 // These imports load individual services into the firebase namespace.
 import 'firebase/firestore'
@@ -16,7 +16,11 @@ const config = {
     appId: "1:925304618581:web:863afe2b66cea56d549edc",
     measurementId: "G-99XJWW2N69"
 };
-firebase.initializeApp(config);
+
+if (!firebase.apps.length) {
+    firebase.initializeApp(config);
+  }else {
+    firebase.app(); // if already initialized, use that one
+}
 
 export default firebase;
-

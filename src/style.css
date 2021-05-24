@@ -37,3 +37,7 @@
     border: 1px solid #999;
     font-size: 20px;
   }
+
+  .customDatePicker {
+    background-color: 'red' !important;
+  }

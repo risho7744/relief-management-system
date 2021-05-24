@@ -21,7 +21,7 @@ import Maps from "views/main/Maps.js";
 import Register from "views/main/Register.js";
 import Login from "views/main/Login.js";
 import Tables from "views/main/Tables.js";
-import Icons from "views/main/Icons.js";
+import FamilyList from "views/main/FamilyList";
 import Add_Family from "views/main/Add_Family";
 
 
@@ -37,7 +37,7 @@ var routes = [
     path: "/families",
     name: "Families Data",
     icon: "ni ni-planet text-blue",
-    component: Icons,
+    component: FamilyList,
     layout: "/admin"
   },
   {
