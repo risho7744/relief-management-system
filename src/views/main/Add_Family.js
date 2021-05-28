@@ -177,7 +177,6 @@ const AddFamily = () => {
               </CardHeader>
               <CardBody>
                 <Form>
-                  
                   <div>
                     <Row>
                       <Col lg="6">

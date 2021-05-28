@@ -124,8 +124,7 @@ class FamilyDataIndex extends Component {
                       </tbody>
                     </Table>
                   </Col>
-                </Row>
-                        
+                </Row>     
               </Card>
             </div> 
           </Row>

@@ -23,6 +23,7 @@ import Login from "views/main/Login.js";
 import Tables from "views/main/Tables.js";
 import FamilyList from "views/main/FamilyList";
 import Add_Family from "views/main/Add_Family";
+import Relief from 'views/main/Relief';
 
 
 var routes = [
@@ -51,7 +52,7 @@ var routes = [
     path: "/Relief_Data",
     name: "Relief Data",
     icon: "ni ni-single-02 text-yellow",
-    component: Profile,
+    component: Relief,
     layout: "/admin"
   },
   {
